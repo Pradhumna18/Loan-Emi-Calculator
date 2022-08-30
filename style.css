@@ -1,0 +1,85 @@
+
+        body {
+            
+    font-family: 'Trebuchet MS';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/pexels-photo-1329297.webp);
+        }
+          
+        /* h1 {
+            font-size: 35px;
+        }
+          
+        h1 {
+            font-size: 21px;
+            margin-top: 20px;
+        }
+          
+        .calculator {
+            
+            width: 400px;
+            height: 450px;
+            background-color: black;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            padding: 20px 0px 0px 100px;
+            border-radius: 50px;
+            color: white;
+        }
+          
+        input {
+            padding: 7px;
+            width: 70%;
+            margin-top: 7px;
+        } */
+        .button{
+                text-align: center !important;
+                width: 100%;
+                border-radius: 6px !important;
+                border: navajowhite;
+                padding: 10px;
+                font-weight: 600;
+        }
+       .button:hover{
+        background-color: blue;
+        color: #fff;
+        opacity: 0.6;
+  transition: 0.5s;
+       }
+        .calculator-div{
+            top: 22%;
+            right: 32%;
+            width: 500px;
+            position: absolute;
+        }
+        .main-div{
+            background: rgb(13 110 253 / 35%);
+            padding: 32px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        input{
+        margin-bottom: 16px;
+            border: 2px solid #0000ffb0;
+            width: 100%;
+            border-radius: 6px;
+            padding: 10px;
+        }
+        input:focus-visible{
+            outline: none !important;
+        }
+        .btn{
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 26px !important;
+            font-size: 26px !important;
+        }
+        h2{
+            text-align: center;
+            margin-top: 16px !important;
+            color: #fff;
+        }
